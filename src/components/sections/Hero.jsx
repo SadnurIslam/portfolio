@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { FaDownload, FaChevronDown } from 'react-icons/fa';
 import { PERSONAL_INFO } from '../../utils/constants';
 import SocialLinks from '../ui/SocialLinks';
+import profileImg from '../../assets/profile.jpg';
 
 const Hero = () => {
   return (
@@ -69,9 +70,7 @@ const Hero = () => {
                   2000,
                   'Full Stack Developer',
                   2000,
-                  'React Specialist',
-                  2000,
-                  'Node.js Developer',
+                  'Competitive Programmer',
                   2000,
                 ]}
                 wrapper="span"
@@ -143,7 +142,7 @@ const Hero = () => {
             >
               <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary-500 shadow-2xl shadow-primary-500/50">
                 <img
-                  src="/src/assets/images/profile.jpg"
+                  src={profileImg}
                   alt={PERSONAL_INFO.name}
                   className="w-full h-full object-cover"
                 />
