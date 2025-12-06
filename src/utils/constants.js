@@ -13,6 +13,7 @@ export const PERSONAL_INFO = {
     linkedin: "https://linkedin.com/in/sadnur-islam",
     twitter: "https://x.com/sadnur-islam",
     facebook: "https://facebook.com/sadnurislam.me",
+    email: "sadnurislam2000@gmail.com"
   },
   
   about: {

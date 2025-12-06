@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from 'react-icons/fa';
 import { PERSONAL_INFO } from '../../utils/constants';
 
 const SocialLinks = () => {
   const socialLinks = [
     { icon: FaGithub, url: PERSONAL_INFO.social.github, color: 'hover:text-gray-400' },
     { icon: FaLinkedin, url: PERSONAL_INFO.social.linkedin, color: 'hover:text-blue-500' },
-    { icon: FaTwitter, url: PERSONAL_INFO.social.twitter, color: 'hover:text-blue-400' },
+    { icon: FaEnvelope, url: PERSONAL_INFO.social.email, color: 'hover:text-blue-400' },
     { icon: FaFacebook, url: PERSONAL_INFO.social.facebook, color: 'hover:text-blue-600' },
   ];
 
